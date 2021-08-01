@@ -10,7 +10,7 @@ body {
     font-family: arial, verdana, sans-serif;
 }
 
-section {
+.section {
     padding: 1.8rem 1rem;
 }
 
@@ -171,6 +171,7 @@ section {
 
 .vignette-expiring {
     color: #de6c64;
+    font-weight: 900;
 }
 
 .vignette-header-nav {
