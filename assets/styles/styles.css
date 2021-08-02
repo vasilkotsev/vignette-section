@@ -1,359 +1,433 @@
 /* Common styles */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: arial, verdana, sans-serif;
+  font-family: arial, verdana, sans-serif;
 }
 
 .section {
-    padding: 1.8rem 1rem;
+  padding: 1.8rem 1rem;
 }
 
 .btn-vinetki {
-    font-size: 16px;
-    padding: 0.8em 1em;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 50px;
-    font-weight: 600;
-    line-height: normal;
+  font-size: 16px;
+  padding: 0.8em 1em;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .btn-vinetki-small {
-    line-height: 1.5;
-    font-size: 14px;
-    padding: 0.5em 0.7em;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 50px;
-    font-weight: 600;
+  line-height: 1.5;
+  font-size: 14px;
+  padding: 0.5em 0.7em;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.btn-vinetki-extra-small {
+  line-height: 1.2;
+  font-size: 12px;
+  padding: 0.5em 0.7em;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.btn-back {
+  font-weight: 600;
+  font-size: 14px;
+  color: #3376d4;
+  text-decoration: none;
+  margin-right: 6px;
+  padding: 0.5em;
+}
+
+.btn-back .fas {
+  margin-right: 3px;
+}
+
+/* .btn-back:before {
+  content: "<<";
+  font-size: 12px;
+  margin-right: 2px;
+} */
+
+.btn-back:hover {
+  text-decoration: underline;
+}
+
+.btn-vinetki-extra-small .fas {
+  font-size: 12px;
+  margin-right: 7px;
 }
 
 .btn-vinetki .fas {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .btn-vinetki-small .fas {
-    margin-right: 7px;
+  margin-right: 7px;
 }
 
 .btn-primary {
-    background: #39bd50;
+  background: #39bd50;
 }
 
 .btn-primary:hover {
-    background: #209935;
+  background: #209935;
 }
 
 .btn-secondary {
-    background: #2e94db;
+  background: #2e94db;
 }
 
 .btn-secondary:hover {
-    background: #197bbf;
+  background: #197bbf;
 }
 
 .btn-third {
-    background: #f5770a;
-    border: 1px solid #f5770a;
+  background: #f5770a;
+  border: 1px solid #f5770a;
 }
 
 .btn-third:hover {
-    background: #de6a04;
-    border: 1px solid #de6a04;
-    color: #fff;
+  background: #de6a04;
+  border: 1px solid #de6a04;
+  color: #fff;
 }
 
 .btn-more {
-    font-weight: bold;
-    text-align: center;
-    margin: auto;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 14px;
-    color: #07631e;
-    padding: 10px 0;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  color: #07631e;
+  padding: 10px 0;
 }
 
-.btn-more::before {
-    content: ">>";
-    padding-right: 5px;
-    font-size: 12px;
-    color: #07631e;
-}
+/* .btn-more::before {
+  content: ">>";
+  padding-right: 5px;
+  font-size: 12px;
+  color: #07631e;
+} */
 
 .btn-more:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+.btn-more .fas {
+  margin-right: 3px;
 }
 
 .content-wrapper {
-    width: 100%;
-    max-width: 1280px;
-    margin: auto;
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .section-title,
 .section-subtitle {
-    text-align: center;
-    line-height: 1.5;
+  text-align: center;
+  line-height: 1.5;
 }
 
 .section-subtitle {
-    padding-top: 1em;
-    font-size: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 1em;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .logo-wrapper {
-    width: 100%;
-    max-width: 360px;
-    padding-top: 64px;
-    display: inline-block;
+  width: 100%;
+  max-width: 360px;
+  padding-top: 64px;
+  display: inline-block;
 }
 
 .logo-wrapper .logo {
-    display: inline-block;
-    width: 100%;
-    height: auto;
+  display: inline-block;
+  width: 100%;
+  height: auto;
 }
 
 /* Hero section styles */
 
 #hero-section {
-    background: url("./../images/road-background.jpg") no-repeat 40% 40%;
-    background-size: cover;
-    padding: 1rem;
-    min-height: 300px;
-    text-align: center;
+  background: url("./../images/road-background.jpg") no-repeat 40% 40%;
+  background-size: cover;
+  padding: 1rem;
+  min-height: 300px;
+  text-align: center;
 }
 
 #hero-section .btn-holder {
-    padding-top: 70px;
+  padding-top: 70px;
 }
 
 #hero-section .btn-vinetki {
-    margin-top: 1.3em;
+  margin-top: 1.3em;
 }
 
 #hero-section .btn-vinetki + .btn-vinetki {
-    margin-left: 7px;
+  margin-left: 7px;
 }
 
 /* Vignette-page styles */
 
 #vignette-section-container {
-    text-align: center;
+  text-align: center;
 }
 
 #vignette-section-container .btn-more {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .vignette {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 1.8em 1.4em;
-    border-radius: 15px;
-    width: 100%;
-    max-width: 560px;
-    margin: auto;
-    margin-top: 1.8em;
-    text-align: left;
-    background: #dce5f2;
-    box-shadow: 0 20px 70px -28px rgb(168 177 191);
-    line-height: 1.5;
-    font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1.8em 1.4em;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 560px;
+  margin: auto;
+  margin-top: 1.8em;
+  text-align: left;
+  background: #dce5f2;
+  box-shadow: 0 20px 70px -28px rgb(168 177 191);
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.expiring {
+  color: #de6c64;
+  font-weight: 900;
 }
 
 .vignette-expiring {
-    color: #de6c64;
-    font-weight: 900;
+  background: #f2bcb8;
+  position: relative;
+}
+
+.vignette-expiring .btn-vinetki-extra-small {
+  /* position: absolute;
+  bottom: 12px;
+  right: 50%;
+  transform: translateX(50%); */
+  text-align: center;
 }
 
 .vignette-header-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .vignette-icon {
-    flex: 1 0 auto;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
+  flex: 1 0 auto;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 .vignette-title {
-    font-family: Arial, Helvetica, sans-serif;
-    flex: 1 0 auto;
-    font-size: 20px;
-    padding-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  flex: 1 0 auto;
+  font-size: 20px;
+  padding-left: 10px;
 }
 
 .vignette-title .fa-edit {
-    margin-left: 10px;
-    cursor: pointer;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 .vignette-body {
-    background: #fafafa;
-    padding: 1em;
-    border-radius: 7px;
-    margin-top: 1.2em;
+  background: #fafafa;
+  padding: 1em;
+  border-radius: 7px;
+  margin-top: 1.2em;
 }
 
 .vignette .vignette-row {
-    padding: 3px;
+  padding: 3px;
+  padding: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .vignette .vignette-row span:first-child {
-    font-weight: 600;
-    margin-right: 10px;
+  font-weight: 600;
+  margin-right: 10px;
 }
 
 .vignette .vignette-row .fas {
-    margin-right: 10px;
-    font-size: 16px;
+  margin-right: 8px;
 }
 
 .vignette-download-pdf {
-    padding: 15px;
-    display: inline-block;
-    background: url(https://imgrabo.com/design/site/vinetki/pdf.png) no-repeat
-        center center / contain;
-    opacity: 0.9;
+  padding: 15px;
+  display: inline-block;
+  background: url(https://imgrabo.com/design/site/vinetki/pdf.png) no-repeat
+    center center / contain;
+  opacity: 0.9;
 }
 
 .form-group {
-    margin-top: 15px;
-    position: relative;
+  margin-top: 15px;
+  position: relative;
 }
 
 .vignette .vignette-note {
-    padding: 0.5rem 0.7rem;
-    border-radius: 50px;
-    border: 1px solid #ccc;
-    outline: none;
-    position: relative;
-    width: 100%;
+  padding: 0.5rem 0.7rem;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  outline: none;
+  position: relative;
+  width: 100%;
 }
 
 .vignette .vignette-note-label {
-    position: absolute;
-    top: 50%;
-    left: 13px;
-    transform: translateY(-50%);
-    color: #999;
-    transition: all 0.3s ease;
-    pointer-events: none;
-    padding: 0 3px;
+  position: absolute;
+  top: 50%;
+  left: 13px;
+  transform: translateY(-50%);
+  color: #999;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  padding: 0 3px;
 }
 
 .vignette .vignette-note-label.shrink {
-    top: -10px;
-    font-size: 12px;
-    color: #333333;
+  top: -10px;
+  font-size: 12px;
+  color: #333333;
 }
 
 .vignette .vignette-note:focus {
-    box-shadow: 0 0 9px 3px rgb(178, 183, 191);
-    outline: none;
+  box-shadow: 0 0 9px 3px rgb(178, 183, 191);
+  outline: none;
 }
 
 .vignette .vignette-note:focus ~ .vignette-note-label {
-    top: -10px;
-    font-size: 12px;
-    color: #333333;
+  top: -10px;
+  font-size: 12px;
+  color: #333333;
 }
 
 /* Subscribe-vignette page styles*/
 
 #subscribe-vignette-section {
-    background: #2e94db;
-    color: #fff;
-    text-align: center;
+  background: #2e94db;
+  color: #fff;
+  text-align: center;
 }
 
 .subscribe-section-content .btn-holder {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .subscribe-section-content .btn-vinetki + .btn-vinetki {
-    margin-left: 7px;
+  margin-left: 7px;
 }
 
 #subscription-form {
-    font-size: 16px;
-    line-height: 1.5;
-    border-radius: 15px;
-    text-align: center;
-    background: #dce5f2;
-    display: flex;
-    flex-flow: column;
-    width: 100%;
-    max-width: 545px;
-    margin: auto;
-    margin-top: 1.2em;
-    padding: 1em 2em 2.2em;
+  font-size: 16px;
+  line-height: 1.5;
+  border-radius: 15px;
+  text-align: center;
+  background: #dce5f2;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  max-width: 545px;
+  margin: auto;
+  margin-top: 1.2em;
+  padding: 1em 2em;
 }
 
 #subscription-form label {
-    color: #333333;
-    padding: 1em 0.3em 0.5em;
+  color: #333333;
+  padding: 1em 0.3em 0.5em;
+}
+
+#subscription-form .btn-back {
+  margin-top: 5px;
+}
+
+#subscription-form .btn-holder {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  max-width: 200px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
 }
 
 #subscription-form input,
 #subscription-form select {
-    padding: 0.6em 0.9em;
-    border-radius: 50px;
-    border: 1px solid #ccc;
-    outline: none;
-    font-size: 16px;
-    width: 100%;
-    max-width: 400px;
-    margin: auto;
+  padding: 0.6em 0.9em;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
 }
 
 #subscription-form input:focus,
 #subscription-form select:focus {
-    outline: none;
-    border-color: #7db0fb;
-    box-shadow: 0 0 0 4px rgba(24, 117, 255, 0.25);
+  outline: none;
+  border-color: #7db0fb;
+  box-shadow: 0 0 0 4px rgba(24, 117, 255, 0.25);
 }
 
 .subscription-result-container {
-    font-size: 16px;
-    border-radius: 15px;
-    text-align: center;
-    background: #dce5f2;
-    display: flex;
-    flex-flow: column;
-    width: 100%;
-    max-width: 545px;
-    margin: auto;
-    margin-top: 1.5em;
-    padding: 2.2em 1.3em 1em;
-    color: #333;
+  font-size: 16px;
+  border-radius: 15px;
+  text-align: center;
+  background: #dce5f2;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  max-width: 545px;
+  margin: auto;
+  margin-top: 1.5em;
+  padding: 2.2em 1.3em 1em;
+  color: #333;
 }
 
 .subscribe-message-box {
-    padding: 1.5em 1em;
-    background: #fff;
+  padding: 1.5em 1em;
+  background: #fff;
 }
 
 .subscribe-message {
-    padding-top: 1em;
-    color: #e3202a;
-    line-height: 1.5;
+  padding-top: 1em;
+  color: #e3202a;
+  line-height: 1.5;
 }
 
 .subscription-result-container .btn-vinetki-small {
-    margin-top: 2em;
-    display: inline-block;
+  margin-top: 2em;
+  display: inline-block;
 }
 
 /* Media queries */
@@ -376,63 +450,64 @@ body {
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media all and (max-width: 575.98px) {
-    .vignette {
-        font-size: 12px;
-    }
+  .vignette {
+    font-size: 12px;
+  }
 }
 
 /* Very small devices */
 
-@media all and (max-width: 399.98px) {
-    .btn-more {
-        font-size: 12px;
-    }
-    .section-title {
-        font-size: 18px;
-    }
-    .section-subtitle {
-        font-size: 12px;
-    }
-    .btn-vinetki {
-        font-size: 14px;
-    }
-    .btn-vinetki-small {
-        font-size: 13px;
-    }
-    .vignette-title {
-        font-size: 16px;
-    }
-    .vignette-icon {
-        font-size: 30px;
-    }
-    .logo-wrapper {
-        padding-top: 20px;
-        max-width: 250px;
-    }
-    #hero-section {
-        min-height: initial;
-    }
-    #hero-section .btn-holder {
-        display: flex;
-        flex-flow: column;
-        width: 70%;
-        margin: auto;
-    }
-    #hero-section .btn-holder {
-        padding-top: 20px;
-    }
-    #hero-section .btn-vinetki + .btn-vinetki {
-        margin-left: initial;
-        margin-top: 15px;
-    }
-    #subscription-form input,
-    #subscription-form select {
-        font-size: 14px;
-    }
-    #subscription-form {
-        font-size: 14px;
-    }
-    .subscription-result-container {
-        font-size: 14px;
-    }
+@media all and (max-width: 420px) {
+  .btn-more,
+  .btn-back {
+    font-size: 12px;
+  }
+  .section-title {
+    font-size: 18px;
+  }
+  .section-subtitle {
+    font-size: 12px;
+  }
+  .btn-vinetki {
+    font-size: 14px;
+  }
+  .btn-vinetki-small {
+    font-size: 13px;
+  }
+  .vignette-title {
+    font-size: 16px;
+  }
+  .vignette-icon {
+    font-size: 30px;
+  }
+  .logo-wrapper {
+    padding-top: 20px;
+    max-width: 250px;
+  }
+  #hero-section {
+    min-height: initial;
+  }
+  #hero-section .btn-holder {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    margin: auto;
+  }
+  #hero-section .btn-holder {
+    padding-top: 20px;
+  }
+  #hero-section .btn-vinetki + .btn-vinetki {
+    margin-left: initial;
+    margin-top: 15px;
+  }
+  #subscription-form input,
+  #subscription-form select {
+    font-size: 14px;
+  }
+  #subscription-form {
+    font-size: 14px;
+  }
+  .subscription-result-container {
+    font-size: 14px;
+  }
 }
