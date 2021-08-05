@@ -217,23 +217,27 @@ body.vignette-page-body {
 
 .vignette-header-nav {
     display: -webkit-box;
-    display: -moz-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .vignette-icon {
     display: -webkit-box;
-    display: -moz-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 20%;
     flex: 1 0 20%;
-    font-size: 40px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    font-size: 40px;
 }
 
 .vignette-title {
@@ -257,15 +261,20 @@ body.vignette-page-body {
 
 .vignette .vignette-row {
     display: -webkit-box;
-    display: -moz-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
-    padding: 3px;
-    padding: 3px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
+    padding: 3px;
+    padding: 3px;
 }
 
 .vignette .vignette-row span:first-child {
@@ -349,16 +358,17 @@ body.vignette-page-body {
 
 #subscription-form {
     display: -webkit-box;
-    display: -moz-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
     font-size: 16px;
     line-height: 1.5;
     border-radius: 15px;
     text-align: center;
     background: #dce5f2;
-    flex-flow: column;
     width: 100%;
     max-width: 545px;
     margin: auto;
@@ -377,15 +387,20 @@ body.vignette-page-body {
 
 #subscription-form .btn-holder {
     display: -webkit-box;
-    display: -moz-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
     flex-flow: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     width: 100%;
     max-width: 200px;
-    justify-content: center;
-    align-items: center;
     margin: auto;
     margin-top: 20px;
 }
@@ -412,15 +427,16 @@ body.vignette-page-body {
 .subscription-result-container,
 .buy-vignette-form {
     display: -webkit-box;
-    display: -moz-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
     font-size: 16px;
     border-radius: 15px;
     text-align: center;
     background: #dce5f2;
-    flex-flow: column;
     width: 100%;
     max-width: 545px;
     margin: auto;
@@ -488,38 +504,41 @@ body.vignette-page-body {
 }
 
 .buy-vignette-form .form-option-box {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
-    font-size: 1em;
     justify-content: space-around;
+    font-size: 1em;
 }
 
 .buy-vignette-form .form-option-icon {
     display: -webkit-box;
-    display: -moz-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
+    vertical-align: middle;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 20%;
     flex: 1 0 20%;
     font-size: 30px;
     text-align: center;
-    vertical-align: middle;
-    justify-content: center;
-    align-items: center;
 }
 
 .buy-vignette-form .form-option-info {
     display: -webkit-box;
-    display: -moz-box;
     display: -ms-flexbox;
-    display: -webkit-flex;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
     flex-flow: column;
-    margin-left: 7px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 80%;
     flex: 1 0 80%;
+    margin-left: 7px;
 }
 
 .buy-vignette-form .category {
@@ -587,10 +606,11 @@ body.vignette-page-body {
     }
     #hero-section .btn-holder {
         display: -webkit-box;
-        display: -moz-box;
         display: -ms-flexbox;
-        display: -webkit-flex;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
         flex-flow: column;
         width: 70%;
         margin: auto;
